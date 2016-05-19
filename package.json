@@ -5,11 +5,10 @@
   "license": "CC-BY-SA-4.0",
   "author": "Jourdan Templeton <hello@jourdant.me> (https://blog.jourdant.me/)",
   "keywords": [
-    "LIFX",
+    "circadian",
     "IoT",
     "smart-home"
   ],
-  "bin": "./circad.js",
   "main": "./circad.js",
   "repository": {
     "type": "git",
@@ -26,6 +25,6 @@
   },
   "private": true,
   "dependencies": {
-    "primus": "*"
+    "suncalc": ">=1.7.0"
   }
 }
