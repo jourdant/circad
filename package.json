@@ -1,0 +1,31 @@
+{
+  "name": "circad",
+  "version": "0.0.1",
+  "description": "A smart light controller built with your circadian rhythms in mind.",
+  "license": "CC-BY-SA-4.0",
+  "author": "Jourdan Templeton <hello@jourdant.me> (https://blog.jourdant.me/)",
+  "keywords": [
+    "LIFX",
+    "IoT",
+    "smart-home"
+  ],
+  "bin": "./circad.js",
+  "main": "./circad.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jourdant/circad.git"
+  },
+  "scripts": {
+      "start": "node circad.js"
+  },
+  "bugs": {
+    "url": "http://github.com/jourdant/circad/issues"
+  },
+  "engines": {
+    "node": ">=0.12.0"
+  },
+  "private": true,
+  "dependencies": {
+    "primus": "*"
+  }
+}
