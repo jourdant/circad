@@ -25,6 +25,7 @@
   },
   "private": true,
   "dependencies": {
-    "suncalc": ">=1.7.0"
+    "suncalc": ">=1.7.0",
+    "node-lifx": "*"
   }
 }
